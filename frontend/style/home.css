@@ -1,0 +1,128 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+.c2{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/background.jpg) ;
+    
+    background-position: center;
+    background-size:  100%;
+    font-family: sans-serif;
+    
+
+}  
+  
+
+
+.c1{
+    background-color: #f6ccac8d;
+    border: 5px solid rgb(168, 170, 171); 
+    width: 100%; 
+    height: 70px; 
+    
+
+    padding: 10px;
+    
+    display: flex;
+    align-items: center; 
+    justify-content: flex-start; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+.c1 img {
+
+    width: auto;
+    height: 60px;
+    margin-right: 20px;
+    border: 3px rgb(144, 148, 96) solid;
+    cursor:pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+.c1 img:hover {
+    
+    transform: scale(1.5);
+    
+
+}
+
+
+.c1 ol {
+    list-style-type: none;
+    display: flex;
+    gap: 50px;
+}
+
+
+
+
+.c1 ol li {
+        display:inline;
+        padding: 150px;
+        font-size: 120%;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        
+        
+    }
+
+    .c1 ol li a {
+        color: rgb(237, 238, 245);
+        transition: 0.3s;
+    }
+
+
+
+.c1 ol li :hover {
+        background-color: rgb(144, 148, 96);
+        color: rgb(250, 245, 245);
+        width: 200px; 
+        height:50px;
+        display: inline;
+
+
+        font-size:20px;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+
+    
+    } 
+
+
+.button a input {
+        font-size:large;
+        font-weight: bold;
+        font-family:Arial, Helvetica, sans-serif;
+        overflow: hidden;
+        background-color: rgba(38, 57, 5, 0.676);
+
+}
+
+
+.button :hover {
+        cursor: pointer;
+        background-color: rgb(144, 148, 96);
+        font-size: medium;
+        font-weight: bold;
+        font-family: Arial, Helvetica, sans-serif;
+        overflow: hidden;
+
+
+}
+
+.aim {
+
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
