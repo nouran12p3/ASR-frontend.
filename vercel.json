@@ -1,0 +1,7 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/home.html" },
+    { "source": "/contact", "destination": "/contact_us.html" },
+    { "source": "/speech", "destination": "/speech_recognition.html" }
+  ]
+}
