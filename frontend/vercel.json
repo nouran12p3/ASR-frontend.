@@ -1,0 +1,27 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/home.html"
+    },
+    {
+      "source": "/contact",
+      "destination": "/contact_us.html"
+    },
+    {
+      "source": "/speech-recognition",
+      "destination": "/speech_recognition.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=3600"
+        }
+      ]
+    }
+  ]
+}
